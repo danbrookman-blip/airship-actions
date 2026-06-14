@@ -1,0 +1,114 @@
+/* Airship brand type — Lato (console body/nav). DIN-2014 (page titles) is
+   licensed, so the display stack names it first and falls back to Lato. */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Airship Design System tokens — palette extracted from the live console
+       (dashboard.airship.co.uk), shared with the airship-scv project. Stored in
+       HSL because shadcn/ui consumes hsl(var(--token)). */
+
+    /* Surfaces */
+    --background: 192 20% 95%;        /* canvas #f1f5f6 */
+    --foreground: 210 11% 15%;        /* ink #212529 */
+    --card: 195 16% 99%;              /* surface #fafbfb (flat, near-white) */
+    --card-foreground: 210 11% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 15%;
+
+    /* Interactive — Airship blue for actions/links */
+    --primary: 205 100% 61%;          /* brandblue #38abff */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 204 20% 94%;
+    --secondary-foreground: 210 27% 17%; /* title #202c38 */
+
+    --muted: 204 20% 94%;
+    --muted-foreground: 212 16% 46%;  /* navy, lightened */
+
+    /* Brand purple accent (logo gradient #d14bea→#8d00d4) */
+    --accent: 283 75% 48%;            /* #a31fd8 */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 354 70% 54%;       /* danger #dc3545 */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 206 22% 90%;
+    --input: 206 22% 90%;
+    --ring: 205 100% 61%;
+
+    --radius: 0.5625rem;              /* Airship card radius 9px */
+
+    /* Status tokens */
+    --success: 94 55% 48%;            /* Airship green #71be37 */
+    --success-foreground: 0 0% 100%;
+    --warning: 45 100% 51%;           /* #ffc107 */
+    --warning-foreground: 210 27% 17%;
+    --info: 205 100% 61%;
+    --info-foreground: 0 0% 100%;
+
+    /* Side nav — light Airship console style */
+    --sidebar-background: 195 16% 99%;   /* near-white surface */
+    --sidebar-foreground: 212 31% 30%;   /* navy #354b64 */
+    --sidebar-primary: 205 100% 61%;     /* active text/icon = blue */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 205 100% 95%;      /* active pill (light blue) */
+    --sidebar-accent-foreground: 205 100% 35%;
+    --sidebar-border: 206 22% 90%;
+    --sidebar-ring: 205 100% 61%;
+    --sidebar-muted: 212 16% 52%;
+
+    /* Stage colours — categorical scale for the pipeline */
+    --stage-new: 205 100% 61%;
+    --stage-contacted: 190 70% 45%;
+    --stage-qualified: 170 65% 40%;
+    --stage-proposal: 45 90% 50%;
+    --stage-followup: 30 85% 50%;
+    --stage-provisional: 283 60% 55%;
+    --stage-deposit-req: 320 60% 50%;
+    --stage-deposit-paid: 340 70% 55%;
+    --stage-confirmed: 94 55% 48%;
+    --stage-lost: 0 60% 50%;
+    --stage-cancelled: 0 0% 55%;
+    --stage-completed: 212 31% 40%;
+
+    /* Chart palette — Airship blue/purple/green-led */
+    --chart-1: 205 100% 61%;
+    --chart-2: 283 75% 48%;
+    --chart-3: 94 55% 48%;
+    --chart-4: 45 100% 51%;
+    --chart-5: 340 70% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Lato', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Airship brand gradient (logo / brand accents) */
+  .gradient-brand {
+    background: linear-gradient(135deg, #d14bea, #8d00d4);
+  }
+  /* Airship cards are essentially flat: a hairline lift only. */
+  .shadow-card {
+    box-shadow: 0 1px 2px hsl(212 31% 25% / 0.05);
+  }
+  .shadow-card-hover {
+    box-shadow: 0 4px 14px hsl(212 31% 25% / 0.1);
+  }
+  .shadow-pill {
+    box-shadow: 0 2px 6px hsl(212 31% 25% / 0.12);
+  }
+}
