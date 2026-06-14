@@ -16,6 +16,7 @@ import {
   Cake,
   TrendingDown,
   Users,
+  ExternalLink,
 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -58,6 +59,7 @@ function relativeDue(iso: string): string {
 function ActionRow({ action, onOpen }: { action: InboxAction; onOpen: () => void }) {
   const Icon = KIND_ICON[action.kind] ?? InboxIcon;
   const tone = TONE[action.tagTone];
+  const isExternal = !!action.link?.startsWith("http");
 
   return (
     <button
@@ -99,7 +101,11 @@ function ActionRow({ action, onOpen }: { action: InboxAction; onOpen: () => void
         )}
       </div>
 
-      <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+      {isExternal ? (
+        <ExternalLink className="h-4 w-4 shrink-0 text-muted-foreground" />
+      ) : (
+        <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+      )}
     </button>
   );
 }
@@ -146,7 +152,8 @@ export default function Inbox() {
   }, [enquiries, stages, customers, watchedSegments, segments]);
 
   const openAction = (a: InboxAction) => {
-    if (a.link) navigate(a.link);
+    if (a.link?.startsWith("http")) window.open(a.link, "_blank", "noopener,noreferrer");
+    else if (a.link) navigate(a.link);
     else if (a.hint) toast(a.title, { description: a.hint });
   };
 

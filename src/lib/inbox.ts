@@ -20,6 +20,7 @@ import {
   type Customer,
   type Segment,
 } from "@/data/customers";
+import { airshipContactUrl } from "@/lib/airshipLinks";
 
 export type ActionSeverity = "overdue" | "due_soon" | "attention";
 export type ActionTone = "danger" | "warning" | "info" | "success" | "brand";
@@ -115,6 +116,7 @@ function birthdayActions(customers: Customer[], now: Date): InboxAction[] {
       dueAt,
       tag: "Birthday",
       tagTone: "brand",
+      link: airshipContactUrl(c.id),
       hint: `Send ${c.firstName} a birthday offer or invite back.`,
       sortKey: info.yearsVisitedNear * 100 + (BIRTHDAY_LOOKAHEAD_DAYS - info.days),
     });
@@ -141,6 +143,7 @@ function sentimentActions(customers: Customer[]): InboxAction[] {
       dueAt: flip.latestNegative.date,
       tag: "At risk",
       tagTone: "danger",
+      link: airshipContactUrl(c.id),
       hint: `Reach out to ${c.firstName} to make it right.`,
       sortKey: 10_000 + c.totalSpend, // churn risk floats to the top of the lane
     });
@@ -183,6 +186,7 @@ function segmentActions(
         dueAt: m.since || undefined,
         tag: "Segment",
         tagTone: "info",
+        link: airshipContactUrl(c.id),
         hint: `Follow up with ${c.firstName} — now in “${name}”.`,
         sortKey: 100 - (daysSince ?? 30),
       });
