@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 83 43.2">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-6);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" y="0" width="83" height="43.2"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-1199.3" y1="792.9" x2="-1198.6" y2="792.3" gradientTransform="translate(99548 34267.4) scale(83 -43.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-828" y1="350" x2="-827.3" y2="349.5" gradientTransform="translate(2685.1 584.3) scale(3.1 -1.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-994.3" y1="769.8" x2="-993.6" y2="769.2" gradientTransform="translate(5505.3 14474.2) scale(5.5 -18.8)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-507.6" y1="761.3" x2="-506.8" y2="760.7" gradientTransform="translate(894 11830.3) scale(1.7 -15.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-993.5" y1="752" x2="-992.8" y2="751.4" gradientTransform="translate(5499.3 9854.3) scale(5.5 -13.1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-993.4" y1="754.2" x2="-992.6" y2="753.7" gradientTransform="translate(5516.3 10259.2) scale(5.5 -13.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="-507.4" y1="761.2" x2="-506.7" y2="760.7" gradientTransform="translate(931.6 11822.4) scale(1.7 -15.5)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="-993.7" y1="767.2" x2="-993" y2="766.6" gradientTransform="translate(5544.5 13548.8) scale(5.5 -17.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d14bea"/>
+      <stop offset="1" stop-color="#8d00d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="39.4" y1="21.6" x2="43.6" y2="21.6" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_6" data-name="Group 6">
+    <g id="Group_3" data-name="Group 3">
+      <g class="cls-1">
+        <g id="Group_1" data-name="Group 1">
+          <path id="Path_2" data-name="Path 2" class="cls-3" d="M41.5,1.6c13.4,0,26.5,3.2,38.4,9.2.9.5,1.5,1.4,1.5,2.4v16.8c0,1-.6,1.9-1.5,2.4-7.9,4.1-16.5,6.8-25.3,8.2-4.3.7-8.7,1-13.1,1-4.4,0-8.8-.3-13.1-1-8.8-1.4-17.3-4.1-25.3-8.2-.9-.5-1.5-1.4-1.5-2.4V13.2c0-1,.6-1.9,1.5-2.4C15,4.8,28.1,1.6,41.5,1.6M41.5,0C27.9,0,14.5,3.2,2.3,9.4h0C.9,10.1,0,11.6,0,13.2v16.8c0,1.6.9,3.1,2.3,3.8h0c8.1,4.1,16.8,6.9,25.8,8.4,4.4.7,8.9,1,13.4,1,4.5,0,9-.4,13.4-1,9-1.4,17.7-4.2,25.8-8.4,1.4-.7,2.3-2.2,2.3-3.8V13.2c0-1.6-.9-3.1-2.3-3.8C68.5,3.2,55.1,0,41.5,0"/>
+          <path id="Path_3" data-name="Path 3" class="cls-5" d="M80.6,2.2v1.4h-.3v-1.4h-.5v-.3h1.2v.3h-.5ZM82.7,3.6v-1.4l-.5,1.3h-.2l-.5-1.3v1.4h-.3v-1.7h.5l.4,1.2.4-1.2h.4v1.7h-.3Z"/>
+          <path id="Path_5" data-name="Path 5" class="cls-6" d="M13.1,12.2c-.1,0-.2,0-.3,0-1.4,0-2.5,1.3-2.5,3.1v15.2c0,.1,0,.3.1.4,0,0,.2.2.3.2,0,0,0,0,0,0h.7c.3-.2.5-.4.5-.7v-7.8h2.1s0,7.5,0,7.5c0,.1,0,.3.1.4,0,.1.2.2.4.1h.7c.3-.2.5-.4.5-.7v-13.9c0-1.7-1.1-3.2-2.7-3.6M14.2,15.6v4.8h-2.1v-5c0-.7.5-1.2,1-1.2.6.2,1.1.7,1,1.4"/>
+          <path id="Path_6" data-name="Path 6" class="cls-4" d="M22.9,14h-.7c-.2-.1-.5,0-.5.3,0,0,0,0,0,0v14.6c0,.2.2.4.4.4,0,0,0,0,0,0,0,0,0,0,0,0h.7c.3-.2.5-.4.5-.7v-14.2c0-.3-.2-.5-.5-.5"/>
+          <path id="Path_7" data-name="Path 7" class="cls-10" d="M31.8,15.4l-1.9-.3c-.2,0-.5,0-.7.2-.1.1-.2.3-.2.5v12c0,.1,0,.2.1.3,0,0,.2.1.3,0,0,0,0,0,0,0h.7c.3-.1.4-.3.5-.6v-5.2h1c0-.1,0,0,0,0,.3,0,.5,0,.7.2.2.1.3.3.3.5v4.1c0,.2.2.4.4.4,0,0,0,0,0,0h.7c.2-.1.4-.3.5-.6v-4c0-.6-.3-1.1-.7-1.4.4-.3.7-.9.7-1.4v-2.3c0-1.2-1.2-2.3-2.7-2.5M32.8,17.7v2.4c0,.2-.1.4-.3.5-.2.2-.5.2-.7.2h-1v-4.2h1c.5.1,1,.5,1,1.1"/>
+          <path id="Path_8" data-name="Path 8" class="cls-11" d="M53.4,14.8h-.7c-.3.1-.5.3-.5.6v5.5h-2.1s0-5.2,0-5.2c0-.2-.2-.4-.5-.4,0,0,0,0,0,0h-.7c-.3.1-.5.3-.5.6v11.5c0,.3.2.5.5.5h.7c.2.1.4,0,.5-.2,0,0,0,0,0,0v-5.2h2.1v5.5c0,.3.2.5.5.5h.7c0,0,0,0,0,0,.2,0,.4-.2.4-.4,0,0,0,0,0,0v-12.8c0-.2-.2-.4-.5-.4,0,0,0,0,0,0"/>
+          <path id="Path_9" data-name="Path 9" class="cls-9" d="M60.9,13.9h-.7c-.3.1-.5.4-.5.6v14.2c0,.3.2.5.5.5h.7c0,0,0,0,0,0,.2,0,.4-.2.4-.4,0,0,0,0,0,0v-14.6c0-.3-.2-.5-.5-.5,0,0,0,0,0,0"/>
+          <path id="Path_10" data-name="Path 10" class="cls-7" d="M72.9,15.8c0-1.8-1.2-3.2-2.8-3l-2.3.3c-.3,0-.5.3-.5.6v16.1c0,.3.2.5.5.6h.7c0,0,0,0,0,0,.3,0,.5-.2.4-.5,0,0,0,0,0,0v-7.3h1.1c1.6-.1,2.9-1.6,2.7-3.2v-3.6ZM71.1,19.5c0,.6-.4,1.2-1,1.3h-1.1s0-5.9,0-5.9h1.1c.6-.2,1,.4,1,1v3.6Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path class="cls-8" d="M41.5,15.8c-1.2,0-2.1,1-2.1,2.1v.8c0,.5,0,.6.3,1.2l2.4,4.2s0,0,0,0c0,0,0,0,0,.1v.8c0,.3-.3.6-.6.6s-.6-.3-.6-.6v-.6c0-.3-.2-.5-.5-.5h-.5c-.3,0-.5.2-.5.5v.6c0,1.2,1,2.1,2.1,2.1s2.1-1,2.1-2.1v-.8c0-.5,0-.6-.3-1.2l-2.4-4.2s0,0,0,0c0,0,0,0,0-.1v-.8c0-.3.3-.6.6-.6s.6.3.6.6v.6c0,.3.2.5.5.5h.5c.3,0,.5-.2.5-.5v-.6c0-1.2-1-2.1-2.1-2.1Z"/>
+</svg>
